@@ -1,0 +1,28 @@
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    display: flex;
+    justify-content: center;
+ 
+    }
+    .map-container iframe{
+    margin: 20px;
+  
+    position:absolute;
+  
+    }
+    @media  screen and (max-width:576px){
+        .map-container iframe{
+            margin: auto;
+            width: 100%;
+            height: 100%;
+        }
+        .col-md-8{
+            padding-left: 0px;
+margin-bottom: 50px;
+margin-top: 5px;
+        }
+
+    }

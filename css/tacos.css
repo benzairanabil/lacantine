@@ -1,0 +1,139 @@
+img{
+    width: 350px; 
+    height: 350PX; 
+    border-radius:50%;
+     border: solid 2p #c74965;
+     margin: auto;
+     margin-top: 5px;
+     background-color: white;
+}
+
+.baner{
+   
+    text-align: center;
+    font-size: 60px;
+    margin-top: 15px;
+    line-height: 1 !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titre{
+    text-align: center;
+    color: #c74965;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.pate{
+    width: 350px;
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 10px;
+    
+}
+.prix .seul{
+    width: 120px;
+    background-color: #c74965;
+  margin-right: 10px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.prix .menu{
+width: 120px;
+background-color: darksalmon;
+text-align: center;
+border-radius: 10px;
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.prix{
+    display: flex;
+    justify-content: center;
+}
+.row{
+    justify-content: center;
+    background-color: #ededed;
+}
+.choix{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+@media  screen and (max-width:992px)
+{
+    .baner {
+        
+        line-height: 1 !important;
+        font-size: 50px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+@media  screen and (max-width:576px)
+{
+    .baner {
+        
+        line-height: 1 !important;
+        font-size: 28px;
+        margin-top: 15px;
+        
+    }
+
+}
+.prixx{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px dashed black;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+.prixx .seul{
+    width: 120px;
+    background-color: #c74965;
+  margin-right: auto;
+  text-align: center;
+  margin-left: 0px;
+  border-radius: 10px;
+  color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.prixx .menu{
+width: 120px;
+background-color: darksalmon;
+text-align: center;
+border-radius: 10px;
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-right: 0px;
+margin-left: auto;
+}
+
+@media  screen and (max-width:576px){
+    .prixx .menu{
+        width: 100px;
+    }
+    .prixx .seul{
+        width: 100px;
+    }
+}
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;  
+}
+.sup{
+    width: 100%;
+     text-align: center;
+     border: solid 2px #ea148b; 
+     margin-left: 10px;
+     margin-right: 10px;
+      border-radius: 10px;
+       text-transform: uppercase;
+}

@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bg-dark{
+    background-color: #ea148b !important;
+    width: 100%;
+    position: relative;
+    z-index: 100;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+font-weight: 20px;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #ea148b;
+    background-color: white;   
+}
+.navbar-expand-sm .navbar-nav .nav-link {
+    font-size: 14px ;
+    padding-left: .3rem;
+    font-weight: inherit;
+}
+@media screen and (max-width: 1100px)    
+{
+    .navbar-dark .navbar-nav .nav-link{
+       font-size: 12px;
+    }
+}
+@media screen and (max-width: 500px)    
+{
+    .navbar-dark .navbar-nav .nav-link{
+       border-top: 1px dashed white;
+       
+    }   
+  
+}
+@media screen and (max-width: 800px)    
+{
+    .navbar-dark .navbar-nav .nav-link{
+       font-size: 8px;
+       margin-left: 2px;
+    }
+}
+.bg1{
+    width: 345px;
+    height: 342px;
+    margin-top: 130px;
+    
+}
+.bg2{
+  width: 500px;
+  height: 400px;
+  margin-top: 130px;
+  padding-left: 0px;
+  margin-right: 10px;
+}
+
+.roww{
+  background-color: gray;
+
+}
+#service{
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+/*pizzas */
+.choix img{
+  border: solid 3px #ea148b;
+  border-radius: 50%;
+}
+.choix{
+  margin-left: auto;
+    margin-right: auto;
+ margin-top: 20px;
+ margin-bottom: 20px;
+
+}
+
+.poo{
+    width: 300px !important;
+    height: 100% ;
+}
+h6,p,h5{
+  color: white;
+}
+h1{
+   
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #fac564;
+    line-height: 1.5;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-top: 130px;
+    margin-bottom:15px;
+}
+ .pp{
+    color: white;
+    font-size:40px;
+    font-weight: italic;
+    font-family: cursive;
+   
+}
+
+@media screen and (max-width:576px) {
+    h1,p,.bg2{
+        margin-top: 10px;
+    }
+    .pp{
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+    .bg1{
+      margin-left: 25px;
+      margin-top: 40px;
+    }
+
+}
+@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
+
+h1 {
+/*   text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+    0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
+  color: #fccaff; */
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+  font-family: "Sacramento", cursive;
+  text-align: center;
+  animation: blink 12s infinite;
+  -webkit-animation: blink 12s infinite;
+}
+@-webkit-keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+/*     color: #fccaff;
+    text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+      0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+  }
+}
+
+@keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+/*     color: #fccaff;
+    text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+      0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+  }
+}
+
+
+
+
+
+
+
+
